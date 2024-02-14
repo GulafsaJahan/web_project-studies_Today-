@@ -1,0 +1,416 @@
+/* <!-- opacity (Transparency of an elements. it take a value from 0.0 to 1.0. lowest value is more transparent.--> */
+#wrap
+{
+    width: 100%;
+    height: 1080;
+    border: 2px;
+    background: lightgray;
+}
+#header
+{
+    height: 90px;
+    width: 100%;
+    background:white;
+    position: relative;
+    border-top: 1px solid lightgray;
+}
+input
+{
+    height: 27px;
+    width: 160px;
+    background: rgba(255, 255, 255, 0.822);
+    border-radius: 8px;
+    border: 1px solid gray;
+    color: darkblue;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.menu
+{
+    /* width: 98.8%; */
+    width: 100%;
+    height: 65px;
+    position: relative;
+    background:linear-gradient(to left,#9e2f47 0%, #031b2c 100%);
+}
+.menu ol
+{
+    list-style: none;
+    display: inline-flex;
+}
+.menu ol li
+{
+    padding: 2px 5px 2px 0px;
+    margin: 0px 30px 4px 0px;   
+}
+.menu ol li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 20px;
+}
+.menu ol li a:hover
+{
+    background: #031b2c;
+    border-bottom: 2px solid white;
+    padding: 5px 4px 5px 4px;
+    border-radius: 5px; 
+}
+.sub-menu 
+{
+    display: none;
+    margin-top: 7px;
+}
+.menu ol li:hover .sub-menu
+{
+    display:block;
+    position: absolute;
+    background: white;
+    color:blue;
+}
+.menu ol li:hover .sub-menu ol
+{
+    display: block;
+    margin: 5px;
+}
+.menu ol li:hover .sub-menu ol li 
+{
+    width: 150px;
+    padding: 8px;
+    margin-left: 5px;
+    border-bottom: 2px dotted grey;
+}
+.menu ol li:hover .sub-menu ol li a
+{
+    color: blue;
+    background-color: white;
+}
+.menu ol li:hover .sub-menu ol a:hover
+{
+    text-shadow: white 0px 0px 4px, maroon 5px 5px 10px;
+}
+.sub-menu2
+{
+    display: none;
+    margin-top: 7px;
+}
+.menu ol li:hover .sub-menu2
+{
+    display: block;
+    background-color: white;
+    color: blue;
+    position: absolute;
+}
+.menu ol li:hover .sub-menu2 ol
+{
+    display: block;
+    margin: 5px;
+}
+.menu ol li:hover .sub-menu2 ol li
+{
+    padding: 8px;
+    margin-left: 5px;
+    border-bottom: 2px dotted lightgray;
+    width: 150px;
+}
+.menu ol li:hover .sub-menu2 ol li a
+{
+    background: white;
+    color: blue;
+}
+.sub-menu3
+{
+    display: none;
+    margin-top: 7px;
+}
+.menu ol li:hover .sub-menu3
+{
+    display: block;
+    background: white;
+    position: absolute;
+    color: blue;
+}
+.menu ol li:hover .sub-menu3 ol
+{
+    display: block;
+    margin: 5px;
+}
+.menu ol li:hover .sub-menu3 ol li
+{
+    width: 250px;
+    padding: 8px;
+    margin-left: 5px;
+    border-bottom: 2px solid lightgray;
+}
+.menu ol li:hover .sub-menu3 ol li a
+{
+ background: white;
+ color: blue;
+}
+.sub-menu5
+{
+    display: none;
+    margin-top: 7px;
+}
+.menu ol li:hover .sub-menu5
+{
+    background: white;
+    color: black;
+    display: block;
+    position: absolute;
+}
+.menu ol li:hover .sub-menu5 ol
+{
+    margin: 5px;
+    display: block;
+}
+.menu ol li:hover .sub-menu5 ol li
+{
+    width: 250px;
+    padding: 8px 8px 8px 8px;
+    margin-left: 5px;
+    border-bottom: 2px solid lightgray;
+}
+.menu ol li:hover .sub-menu5 ol li a
+{
+    background: white;
+    color: blue;
+}
+#main
+{
+    height: 870px;
+    width: 100%;
+}
+#left
+{
+    height: 870px;
+    width: 75%;
+    background: rgb(244, 247, 247);
+    float: left;
+}
+#left .left-menu
+{
+    height: 40px;
+    width: 80%;
+    background: rgb(174, 221, 240);
+    padding: 3px;
+    margin: 20px 40px 40px 40px;  
+    border-left: 4px solid orangered;
+}
+.box1
+{
+    height: 430px;
+    width: 30%;
+    float: left;
+}
+.box2
+{
+    height: 430px;
+    width: 48%;
+    float: left;
+    margin: 5px;
+}
+.b1, .b2, .b3, .b4, .b5, .b6, .b7, .b8, .b9, .b10, .b11, .b12
+{
+    height: 20px;
+    width: 140px;
+    background:cyan;
+    margin: 18px 14px 3px 0px;
+    border-radius: 20px 5px 20px 5px;
+    padding: 15px 0px;
+    text-align: center; 
+    font-size: 18px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.b1, .b2, .b3, .b4
+{
+    float: left;
+}
+.b5, .b6, .b7, .b8
+{
+    float: left;
+}
+.b9, .b10, .b11, .b12
+{
+    float: left;
+}
+.b1
+{
+    background: #9e2f47;
+}
+.b2
+{
+    background: #031b2c;
+}
+.b3
+{
+    background: rgb(155, 12, 107);
+}
+.b4
+{
+    background: rgb(39, 110, 39);
+}
+.b5
+{
+    background: violet;
+}
+.b6
+{
+    background: rgb(168, 121, 121);
+}
+.b7
+{
+    background: rgb(223, 8, 108);
+}
+.b8
+{
+    background: rgb(79, 10, 126);
+}
+.b9
+{
+    background: rgb(69, 88, 15);
+}
+.b10
+{
+    background: rgb(238, 28, 133);
+}
+.b11
+{
+    background: rgb(11, 211, 61);
+}
+.b12
+{
+    background: rgba(223, 8, 108, 0.438);
+}
+.b1:hover
+{
+    background:linear-gradient(to top,rgb(8, 71, 29)0%, rgb(184, 88, 141)100%);;
+}
+.b2:hover
+{
+    background: linear-gradient(to top,rgb(153, 22, 55)0%, rgb(154, 165, 172)100%);
+}
+.b3:hover
+{
+    background:linear-gradient(to top,rgb(248, 244, 239)0%, rgb(194, 34, 42)100%);
+}
+.b4:hover
+{
+    background: linear-gradient(to bottom,rgb(32, 15, 121)0%, rgb(227, 252, 8)100%);
+}
+.b5:hover
+{
+    background: linear-gradient(to bottom,rgb(23, 148, 61)0%, rgb(175, 169, 161)100%);
+}
+.b6:hover
+{
+    background: linear-gradient(to bottom,rgb(224, 184, 52)0%, rgb(75, 58, 175)100%);
+}
+.b7:hover
+{
+    background: linear-gradient(to right,rgb(237, 236, 241)0%, rgb(218, 43, 101)100%);
+}
+.b8:hover
+{
+    background: linear-gradient(to right,rgb(199, 197, 209)0%, rgb(200, 236, 68)100%);
+}
+.b9:hover
+{
+    background: linear-gradient(to right,rgb(138, 131, 173)0%, rgb(204, 118, 21)100%);
+}
+.b10:hover
+{
+    background:linear-gradient(to left,rgb(199, 116, 48)0%, rgb(195, 204, 195)100%);
+}
+.b11:hover
+{
+    background: linear-gradient(to left,rgb(109, 136, 177)0%, rgb(180, 178, 54)100%);
+}
+.b12:hover
+{
+    background:linear-gradient(to left,rgb(117, 117, 9)0%, rgb(9, 80, 9)100%);
+}
+.box3
+{
+    height: 430px;
+    width:21%;
+    float: left;
+    margin: 5px 0px 0px 0px;
+}
+.d-out
+{
+    height: 300px;
+    width: 90%;
+    background: rgb(186, 231, 231);
+    margin: 2px 0px 3px 30px;
+    float: left;
+}
+.d1, .d2, .d3, .d4
+{
+    height: 230px;
+    width: 20%;
+    background: rgb(243, 236, 250);
+    margin: 27px 0px 20px 35px;
+    padding: 10px 0px 3px 0px;
+    float: left; 
+    color: blue;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+.right
+{
+    height: 870px;
+    width: 25%;
+    background:rgb(247, 245, 245);
+    float: left;
+    
+}
+.right ol
+{
+    display: block;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.right ol li
+{
+    height: 35px;
+    width: 98.8%;
+    padding-top: 28px;
+    padding-left: 55px;
+    color: white; 
+    border-bottom: 1px solid rgb(206, 204, 204);
+    background: rgb(253, 252, 252);
+}
+.right ol li:hover
+{
+    background: linear-gradient(to left,white 0%,rgb(214, 170, 170) 100%);
+    box-shadow: red 6px 5px 10px;
+    margin: 0px 1px 8px 0px;  
+}
+.right ol li a
+{
+ text-decoration: none;
+ font-size: 20px;
+ font-family: 'Times New Roman', Times, serif;
+ line-height: 25px;
+ color: red;
+ height: 60px;
+ width: 100%;
+ text-align: justify;
+
+ margin: 30px 30px 0px 30px;
+}
+#footer
+{
+    height: 45px;
+    width: 100%;
+    background: black;
+    color: white;
+    padding-top:13px;
+    padding-left: 20px;
+}
